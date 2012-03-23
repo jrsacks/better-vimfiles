@@ -128,6 +128,20 @@ imap <C-space> <C-n>
 " Even though this is in specky, if we don't do it here it doesn't take
 au BufRead,BufNewFile *_spec.rb set filetype=rspec
 
+let vimclojure#ParenRainbow=1
+let vimclojure#HighlightBuiltins=1
+let g:vimclojure#ParenRainbowColorsDark = {
+      \ '0': 'ctermfg=red         guifg=red',
+      \ '1': 'ctermfg=green       guifg=green',
+      \ '2': 'ctermfg=yellow      guifg=yellow1',
+      \ '3': 'ctermfg=magenta     guifg=purple1',
+      \ '4': 'ctermfg=darkyellow  guifg=orange1',
+      \ '5': 'ctermfg=blue        guifg=slateblue1',
+      \ '6': 'ctermfg=yellow      guifg=yellow1',
+      \ '7': 'ctermfg=darkgreen   guifg=magenta1',
+      \ '8': 'ctermfg=red         guifg=darkviolet'
+      \ }
+
 function! <SID>ReformatAndClean()
   " Preparation: save last search, and cursor position.
   let _s=@/

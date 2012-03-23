@@ -19,3 +19,6 @@
 [submodule "bundle/snipmate-vim"]
 	path = bundle/snipmate-vim
 	url = https://github.com/msanders/snipmate.vim.git
+[submodule "bundle/VimClojure"]
+	path = bundle/VimClojure
+	url = https://github.com/vim-scripts/VimClojure.git
