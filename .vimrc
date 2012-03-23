@@ -99,7 +99,7 @@ set vb
 set wildignore+=vendor,tmp,target,.privatebuild
 
 " My Favorite font
-set guifont=Inconsolata:h18.00
+set guifont=Inconsolata:h16.00
 
 " central backup directories
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
